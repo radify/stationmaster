@@ -1,0 +1,30 @@
+---
+- name: Create an index page
+  copy: src=devindex.html dest={{ base }}/devindex.html force=yes
+
+- name: Copy styles
+  copy: src=bootstrap.min.css dest={{ base }}/bootstrap.min.css force=yes
+
+- name: Create an index csv if not exists
+  copy: src=devindex.csv dest={{ base }}/devindex.csv force=no
+
+- name: Copy fonts 1
+  copy: src=glyphicons-halflings-regular.eot dest={{ base }}/glyphicons-halflings-regular.eot force=no
+
+- name: Copy fonts 2
+  copy: src=glyphicons-halflings-regular.svg dest={{ base }}/glyphicons-halflings-regular.svg force=no
+
+- name: Copy fonts 3
+  copy: src=glyphicons-halflings-regular.ttf dest={{ base }}/glyphicons-halflings-regular.ttf force=no
+
+- name: Copy fonts 4
+  copy: src=glyphicons-halflings-regular.woff dest={{ base }}/glyphicons-halflings-regular.woff force=no
+
+- action: shell date '+%F.%H:%M:%S'
+  register: mydate
+
+- name: Update deployment CSV
+  lineinfile:
+    dest={{ base }}/devindex.csv regexp={{ branch }}
+    line="{{ branch }}.{{ devdomain }},{{ mydate.stdout }}"
+    insertafter=EOF
