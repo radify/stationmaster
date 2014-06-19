@@ -1,0 +1,7 @@
+---
+
+- name: Update deployment CSV
+  lineinfile:
+    dest={{ base }}/devindex.csv
+    regexp={{ branch }}
+    state=absent
