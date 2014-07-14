@@ -2,7 +2,7 @@
   "name": "stationmaster",
   "version": "0.0.1",
   "description": "Branch status and integration/deployment tools",
-  "homepage": "https://github.com/uor/stationmaster",
+  "homepage": "https://github.com/radify/stationmaster",
   "license": "See LICENSE",
   "private": true,
   "dependencies": {

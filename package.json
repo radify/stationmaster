@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/uor/stationmaster.git"
+    "url": "git://github.com/radify/stationmaster.git"
   },
   "author": "Radify.io",
   "license": "See LICENSE",
   "bugs": {
-    "url": "https://github.com/uor/stationmaster/issues"
+    "url": "https://github.com/radify/stationmaster/issues"
   },
-  "homepage": "https://github.com/uor/stationmaster"
+  "homepage": "https://github.com/radify/stationmaster"
 }

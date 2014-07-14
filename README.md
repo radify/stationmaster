@@ -39,7 +39,7 @@ The easiest way to use StationMaster is through Ansible. Through the plugin, you
 (TODO what will our package name be? this will need to change if we change it. Also we'd need to test this)
 
 ```bash
-ansible-galaxy install uor.stationmaster
+ansible-galaxy install radify.stationmaster
 ```
 
 ### Example Playbook

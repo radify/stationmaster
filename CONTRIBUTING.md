@@ -26,4 +26,4 @@ Then browse to [http://localhost:8000/index.html](http://localhost:8000/index.ht
 
 # Submitting your changes
 
-Simply push your changes to a branch on your repository and submit a pull request to the [canonical repo](https://github.com/uor/stationmaster).
+Simply push your changes to a branch on your repository and submit a pull request to the [canonical repo](https://github.com/radify/stationmaster).
