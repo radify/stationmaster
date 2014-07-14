@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="stationmaster">
+<head>
+    <title>StationMaster</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="What is deployed? When was it deployed?">
+    <meta name="author" content="radify.io">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body role="document">
+    <div class="container" role="main">
+        <div class="page-header">
+            <h1>StationMaster</h1>
+        </div>
+
+        <div ng-view></div>
+    </div>
+
+    <footer class="bs-docs-footer" role="contentinfo">
+        <div class="container">
+            Brought to you by <a href="http://radify.io/">radify.io</a>
+        </div>
+    </footer>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+</body>
+</html>
