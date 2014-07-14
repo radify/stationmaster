@@ -1,0 +1,17 @@
+<div ng-show="loading">Loading...</div>
+
+<table class="table striped" ng-hide="loading">
+    <thead>
+    <tr><th>Branch</th><th>Deployed</th></tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="datum in data">
+        <td><a href="{{ datum.url }}">{{ datum.URL }}</a></td>
+        <td>{{ datum.Deployed }}</td>
+    </tr>
+    </tbody>
+</table>
+
+<p>
+    <a href="stationmaster.csv" class="btn btn-primary btn-large"><span class="glyphicon glyphicon-download"></span> Download as CSV</a>
+</p>

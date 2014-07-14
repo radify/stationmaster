@@ -1,0 +1,13 @@
+{
+  "name": "stationmaster",
+  "version": "0.0.1",
+  "description": "Branch status and integration/deployment tools",
+  "homepage": "https://github.com/uor/stationmaster",
+  "license": "See LICENSE",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-mocks": "~1.2.x"
+  }
+}
