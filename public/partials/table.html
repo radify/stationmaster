@@ -1,14 +1,13 @@
-<div ng-show="loading">Loading...</div>
-
-<table class="table striped" ng-hide="loading">
+<table class="table striped">
     <thead>
     <tr><th>Branch</th><th>Deployed</th></tr>
     </thead>
     <tbody>
     <tr ng-repeat="datum in data">
         <td><a href="{{ datum.url }}">{{ datum.URL }}</a></td>
-        <td>{{ datum.Deployed }}</td>
-    </tr>
+        <td>{{ datum.Deployed }}</td></tr>
+    <tr ng-if="!loading && data.length == 0"><td colspan="2">No results</td></tr>
+    <tr ng-if="loading"><td colspan="2">Loading...</td></tr>
     </tbody>
 </table>
 
