@@ -4,7 +4,7 @@
     </thead>
     <tbody>
     <tr ng-repeat="datum in data">
-        <td><a href="{{ datum.URL }}">{{ datum.URL }}</a></td>
+        <td><a href="{{ datum.URL }}">{{ datum.URL | stripprotocol }}</a></td>
         <td>{{ datum.Deployed }}</td></tr>
     <tr ng-if="!loading && data.length == 0"><td colspan="2">No results</td></tr>
     <tr ng-if="loading"><td colspan="2">Loading...</td></tr>

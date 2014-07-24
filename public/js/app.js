@@ -4,6 +4,7 @@
 angular.module('stationmaster', [
   'ngRoute',
   'stationmaster.services',
+  'stationmaster.filters',
   'stationmaster.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
