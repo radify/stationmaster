@@ -64,7 +64,7 @@ server {
 
 If you use Ansible, you can use StationMaster-ansible to manage StationMaster:
 
-[https://github.com/radify/stationmaster-ansible](radify/stationmaster-ansible repo))
+[radify/stationmaster-ansible](https://github.com/radify/stationmaster-ansible)
 
 ### Once you've configured it...
 
