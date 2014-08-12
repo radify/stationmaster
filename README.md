@@ -56,6 +56,10 @@ server {
     root /opt/stationmaster/public;
     index index.html;
 
+    location ~* \.(csv)$ {
+        expires -1;
+    }
+
     gzip_types text/plain text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript application/json;
 }
 ```

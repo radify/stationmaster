@@ -1,13 +1,11 @@
 'use strict';
 
-/* Controllers */
-
 angular.module('stationmaster.controllers', [])
   .controller('TableController', ['$scope', '$http', 'CSVParser', function($scope, $http, CSVParser) {
-    var url = 'stationmaster.csv';
+    var url = 'stationmaster.csv?cachebuster=' + Math.random();
     angular.extend($scope, {
       data: [],
-      loading: false,
+      loading: true,
       loadCSV: function() {
         $scope.loading = true;
         $http.get(url).success(function(csv) {
