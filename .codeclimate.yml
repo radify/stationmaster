@@ -1,0 +1,5 @@
+languages:
+  JavaScript: true
+
+exclude_paths:
+- public/bower_components/*
