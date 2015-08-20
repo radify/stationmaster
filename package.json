@@ -1,6 +1,6 @@
 {
   "name": "stationmaster",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Branch status and integration/deployment tools",
   "main": "public/js/stationmaster.js",
   "dependencies": {},
@@ -25,10 +25,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/radify/stationmaster.git"
+    "url": "git+https://github.com/radify/stationmaster.git"
   },
-  "author": "Radify.io",
-  "license": "See LICENSE",
+  "author": {
+    "name": "Radify, Inc.",
+    "email": "line@radify.io",
+    "url": "http://radify.io"
+  },
+  "contributors": [{
+    "name": "Nate Abele",
+    "email": "nate@radify.io",
+    "url": "http://radify.io"
+    }, {
+    "name": "Gavin Davies",
+    "email": "gavin@radify.io",
+    "url": "http://radify.io"
+  }],
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/radify/stationmaster/issues"
   },
