@@ -1,3 +1,9 @@
+[![Build Status](https://travis-ci.org/radify/stationmaster.svg)](https://travis-ci.org/radify/stationmaster)
+[![npm version](https://badge.fury.io/js/stationmaster.svg)](https://www.npmjs.com/package/stationmaster)
+[![Dependency Status](https://david-dm.org/radify/stationmaster.svg)](https://david-dm.org/radify/stationmaster)
+[![devDependency Status](https://david-dm.org/radify/stationmaster/dev-status.svg)](https://david-dm.org/radify/stationmaster#info=devDependencies)
+[![Code Climate](https://codeclimate.com/github/radify/stationmaster/badges/gpa.svg)](https://codeclimate.com/github/radify/stationmaster)
+
 stationmaster
 =============
 
