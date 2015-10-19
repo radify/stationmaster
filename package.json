@@ -1,6 +1,6 @@
 {
   "name": "stationmaster",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Branch status and integration/deployment tools",
   "main": "public/js/stationmaster.js",
   "dependencies": {},
@@ -12,8 +12,8 @@
     "tests"
   ],
   "devDependencies": {
-    "gulp-jasmine": "~2.0.1",
-    "gulp-karma": "0.0.4",
+    "gulp-jasmine": "~2.1.0",
+    "gulp-karma": "0.0.5",
     "karma-phantomjs-launcher": "~0.2.1",
     "karma-jasmine": "~0.3.6",
     "phantomjs": "~1.9.18",
